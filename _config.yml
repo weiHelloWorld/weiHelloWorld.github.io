@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+# Gems
+plugins:    [jekyll-paginate]
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            
+tagline:          'A Jekyll '
+# url:              http://hyde.getpoole.com
+baseurl:          /
+
+# author:
+#   name:           'Mark Otto'
+#   url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+
