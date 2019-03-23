@@ -8,7 +8,7 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            
+# title:            
 tagline:          'A Jekyll '
 # url:              http://hyde.getpoole.com
 baseurl:          https://weihelloworld.github.io/
