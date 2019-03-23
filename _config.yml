@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         kmarkdown
+# markdown:         kmarkdown
 highlighter:      rouge
 # Gems
 plugins:    [jekyll-paginate]
@@ -9,7 +9,7 @@ permalink:        pretty
 
 # Setup
 # title:            
-tagline:          'A Jekyll '
+tagline:          ' '
 # url:              http://hyde.getpoole.com
 baseurl:          https://weihelloworld.github.io/
 
