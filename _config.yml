@@ -8,8 +8,8 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-# title:            
-tagline:          ' '
+title:           "Wei Chen"
+tagline:          'Personal Website'
 # url:              http://hyde.getpoole.com
 baseurl:          https://weihelloworld.github.io/
 
