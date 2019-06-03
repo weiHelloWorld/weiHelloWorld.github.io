@@ -47,3 +47,11 @@ title: Resume
 ## <span style="color: #397249">Professional Skills</span>
 
 Python, C/C++, MATLAB, CUDA C/C++, Git, Machine Learning/Deep Learning
+
+## <span style="color: #397249">Publications </span>
+
+- W. Chen, H. Sidky, and A.L. Ferguson* "Nonlinear discovery of slow molecular modes using state-free reversible VAMPnets" J. Chem. Phys. (in press, 2019) [https://arxiv.org/abs/1902.03336] **(Selected as J. Chem. Phys. "Editor's Pick")**
+
+- W. Chen, A.R. Tan, and A.L. Ferguson* "Collective variable discovery and enhanced sampling using autoencoders: Innovations in network architecture and error function design" J. Chem. Phys. 149 072312 (2018) [https://doi.org/10.1063/1.5023804] **(Invited submission to the "Enhanced Sampling for Molecular Simulations issue" [https://aip.scitation.org/toc/jcp/149/7])**
+
+- W. Chen and A.L. Ferguson* "Molecular enhanced sampling with autoencoders: On-the-fly nonlinear collective variable discovery and accelerated free energy landscape exploration" J. Comput. Chem. 39 25 2079-2102 (2018) [https://doi.org/10.1002/jcc.25520]
