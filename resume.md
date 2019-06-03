@@ -48,6 +48,7 @@ title: Resume
 
 Python, C/C++, MATLAB, CUDA C/C++, Git, Machine Learning/Deep Learning
 
+--------
 ## <span style="color: #397249">Publications </span>
 
 - W. Chen, H. Sidky, and A.L. Ferguson* "Nonlinear discovery of slow molecular modes using state-free reversible VAMPnets" J. Chem. Phys. (in press, 2019) [https://arxiv.org/abs/1902.03336] **(Selected as J. Chem. Phys. "Editor's Pick")**
