@@ -18,16 +18,19 @@ title: Resume
 **BS in Physics**, Nanjing University; 2014
 
 --------
-## <span style="color: #397249"> Research Experience </span>
+## <span style="color: #397249"> Professional Experience </span>
+
+**Qulab Inc.** (Los Angeles, CA), *Research Intern*, 06/2019-Present
 
 
-**University of Chicago**, *PhD Researcher*, 08/2018-Present
+
+**University of Chicago** (Chicago, IL), *PhD Researcher*, 08/2018-Present
 
 - Created a deep learning based model to extract hierarchical slow modes from molecular time-series data ([GitHub](https://github.com/hsidky/srv))
 
 - Achieved O(N) memory usage and O(N) time complexity, as opposed to O(N^2) memory usage and O(N^3) time complexity required by the state-of-the-art kernel based model
 
-**University of Illinois at Urbana-Champaign**, *PhD Researcher*, 05/2015 - Present
+**University of Illinois at Urbana-Champaign** (Urbana, IL), *PhD Researcher*, 05/2015 - Present
 
 - Applied autoencoders with data augmentation to discover important collective variables for molecular systems
 
@@ -51,7 +54,7 @@ Python, C/C++, MATLAB, CUDA C/C++, Git, Machine Learning/Deep Learning
 --------
 ## <span style="color: #397249">Publications </span>
 
-- H. Sidky, W. Chen, and A.L. Ferguson* "High-resolution Markov state models for the dynamics of Trp-cage miniprotein constructed over slow folding modes identified by state-free reversible VAMPnets" (submitted, 2019)
+- H. Sidky, W. Chen, and A.L. Ferguson* "High-resolution Markov state models for the dynamics of Trp-cage miniprotein constructed over slow folding modes identified by state-free reversible VAMPnets" (submitted, 2019) [http://arxiv.org/abs/1906.04890]
 
 - W. Chen, H. Sidky, and A.L. Ferguson* "Capabilities and limitations of time-lagged autoencoders for slow mode discovery in dynamical systems" (submitted, 2019) [http://arxiv.org/abs/1906.00325]
 
