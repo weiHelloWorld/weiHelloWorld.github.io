@@ -26,6 +26,8 @@ title: Resume
 
 **University of Chicago** (Chicago, IL), *PhD Researcher*, 08/2018-Present
 
+- Proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes
+
 - Created a deep learning based model to extract hierarchical slow modes from molecular time-series data ([GitHub](https://github.com/hsidky/srv))
 
 - Achieved O(N) memory usage and O(N) time complexity, as opposed to O(N^2) memory usage and O(N^3) time complexity required by the state-of-the-art kernel based model
