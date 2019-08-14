@@ -18,7 +18,7 @@ title: About
 **BS in Physics**, Nanjing University; 2014
 
 --------
-## <span style="color: #397249"> Professional Experience </span>
+## <span style="color: #397249">Professional Experience</span>
 
 **Qulab Inc.** (Los Angeles, CA), *Research Intern*; 06/2019-Present
 
@@ -26,7 +26,7 @@ title: About
 
 **University of Chicago** (Chicago, IL), *PhD Researcher*; 08/2018-Present
 
-- Proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes
+- Derived and proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes
 
 - Created a deep learning based model to extract hierarchical slow modes from molecular time-series data ([GitHub](https://github.com/hsidky/srv))
 
@@ -60,7 +60,7 @@ Python, C/C++, MATLAB, CUDA C/C++, Git, Machine Learning/Deep Learning
 
 - H. Sidky, **W. Chen**, and A.L. Ferguson "High-resolution Markov state models for the dynamics of Trp-cage miniprotein constructed over slow folding modes identified by state-free reversible VAMPnets" (submitted, 2019) [http://arxiv.org/abs/1906.04890]
 
-- **W. Chen**, H. Sidky, and A.L. Ferguson "Capabilities and limitations of time-lagged autoencoders for slow mode discovery in dynamical systems" (in press, 2019) [http://arxiv.org/abs/1906.00325]
+- **W. Chen**, H. Sidky, and A.L. Ferguson "Capabilities and limitations of time-lagged autoencoders for slow mode discovery in dynamical systems" [J. Chem. Phys. 151 064123](https://aip.scitation.org/doi/10.1063/1.5112048)
 
 - **W. Chen**, H. Sidky, and A.L. Ferguson "Nonlinear discovery of slow molecular modes using state-free reversible VAMPnets" [J. Chem. Phys. 150 214114 (2019)](https://doi.org/10.1063/1.5092521) **<span style="color: red">(Selected as J. Chem. Phys. "Editor's Pick")</span>**
 
