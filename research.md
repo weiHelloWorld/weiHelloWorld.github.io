@@ -22,17 +22,17 @@ How do we encode this idea in an autoencoder?  We require that all input conform
 Firstly let's see what happens if we use traditional autoencoders.  Recall that traditional autoencoders would faithfully reconstruct whatever we put in as inputs.  Therefore in this case, the same "cat conformation" (sitting quietly, smiling with its tail pointing upwards) with different orientations will be mapped to different outputs.  Hence in order to be mapped to different outputs,low-dimensional embeddings **must be different**.
 
 
-![](/figures/data_augment_1.png)
+![]({{ site.url }}/figures/data_augment_1.png)
 
 Now consider autoencoders with data augmentation.  We require all these cats be mapped to the same "aligned" outputs:
 
-![](/figures/data_augment_2.png)
+![]({{ site.url }}/figures/data_augment_2.png)
 
 Here we use an alignment function ("little human") that generates expected outputs for input, such that same "cat conformation" with different orientations are mapped to the same output.  Therefore low-dimensional embeddings must be the same as well.
 
 To implement this, we simply need to use following error function for neural network training:
 
-![](/figures/data_augment_3.png)
+![]({{ site.url }}/figures/data_augment_3.png)
 
 where $A(\cdot)$ is autoencoder output, "little human" is the alignment function, "cat" is the input conformation, $R$ is the regularization term.   What are those sticks and snoopy dogs in the autoencoder output?  They represent reconstruction error, as the autoencoder cannot perfectly reconstruct every detail and there is **information loss** when doing dimensionality reduction.
 
@@ -47,7 +47,7 @@ In a typical dense layer in a neural network, **all nodes are equivalent**, mean
 
 To make sure autoencoder CVs are sorted by important, we need to **break the equivalence and rewire the neural network**.  Based on idea of [NLPCA](http://www.nlpca.org/), we design two following autoencoder architectures:
 
-![](/figures/hierarchical_autoencoder.png)
+![]({{ site.url }}/figures/hierarchical_autoencoder.png)
 
 On the left, we have a "collective hierarchical autoencoder".  The idea is for an input $s$, instead of just creating one reconstructed output, we create $n$ outputs ($n$ is dimensionality of low-dimensional space, $n=3$ in the diagram above).  Now here is the key: we **break the equivalence of nodes in the CV layer** (which encodes CVs), such that the information of first output ($q1$) only comes from first CV, and information of second output ($q2$) only comes from first and second CVs, and so on.  The loss is the average reconstruction loss of these $n$ reconstructed outputs.  Since first CV participates in all reconstructions, it should contain most important information.  Second CV participates in all reconstructions except output $q1$, therefore it should be second important.  By doing this, we get the low-dimensional CVs ranked by their importance.
 
