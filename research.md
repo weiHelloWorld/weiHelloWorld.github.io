@@ -11,7 +11,7 @@ Understanding of physical systems depends crucially on sufficient sampling of sy
 
 1. we need to have an explicit function mapping from high-dimensional space to low-dimensional space
 
-2. time and space complexity should be $O(N)$ to be efficient
+2. time and space complexity should be O(N) to be efficient
 
 3. low-dimensional embeddings should be **invariant under arbitrary translations and rotations** of molecules, as we are not interested in rigid movement of molecules
 
@@ -34,7 +34,7 @@ To implement this, we simply need to use following error function for neural net
 
 ![]({{ site.url }}/figures/data_augment_3.png)
 
-where $A(\cdot)$ is autoencoder output, "little human" is the alignment function, "cat" is the input conformation, $R$ is the regularization term.   What are those sticks and snoopy dogs in the autoencoder output?  They represent reconstruction error, as the autoencoder cannot perfectly reconstruct every detail and there is **information loss** when doing dimensionality reduction.
+where A(.) is autoencoder output, "little human" is the alignment function, "cat" is the input conformation, R is the regularization term.   What are those sticks and snoopy dogs in the autoencoder output?  They represent reconstruction error, as the autoencoder cannot perfectly reconstruct every detail and there is **information loss** when doing dimensionality reduction.
 
 We use this idea together with enhanced sampling techniques to improve sampling efficiency, and have built an open-source package available [here](https://github.com/weiHelloWorld/accelerated_sampling_with_autoencoder).
 
@@ -49,9 +49,9 @@ To make sure autoencoder CVs are sorted by important, we need to **break the equ
 
 ![]({{ site.url }}/figures/hierarchical_autoencoder.png)
 
-On the left, we have a "collective hierarchical autoencoder".  The idea is for an input $s$, instead of just creating one reconstructed output, we create $n$ outputs ($n$ is dimensionality of low-dimensional space, $n=3$ in the diagram above).  Now here is the key: we **break the equivalence of nodes in the CV layer** (which encodes CVs), such that the information of first output ($q1$) only comes from first CV, and information of second output ($q2$) only comes from first and second CVs, and so on.  The loss is the average reconstruction loss of these $n$ reconstructed outputs.  Since first CV participates in all reconstructions, it should contain most important information.  Second CV participates in all reconstructions except output $q1$, therefore it should be second important.  By doing this, we get the low-dimensional CVs ranked by their importance.
+On the left hand side, we have a "collective hierarchical autoencoder".  The idea is for an input `s`, instead of just creating one reconstructed output, we create n outputs (n is dimensionality of low-dimensional space, n = 3 in the diagram above).  Now here is the key: we **break the equivalence of nodes in the CV layer** (which encodes CVs), such that the information of first output (`q1`) only comes from CV1, and information of second output (`q2`) only comes from CV1, CV2, and so on.  The loss function `L` is the average reconstruction loss of these reconstructed outputs `L = ((s - q1)^2 + (s - q2)^2 + (s - q3)^2) / 3`.  Since CV1 participates in all reconstructions, it should contain most important information.  CV2 participates in all reconstructions except output `q1`, therefore it should be second important.  By doing this, we get the low-dimensional CVs ranked by their importance.
 
-On the right, it is a different variant we call "boosted hierarchical autoencoder".  The idea is based on **boosting**, which is also the idea behind **boosted trees** and **residual networks**.  As the same with previous variant, first output $q1$ is constructed from first CV only.  What is different is about following nodes: for second CV, instead of collaborating with first CV to construct $q2$, it TODO
+On the right hand side, it is a different variant we call "boosted hierarchical autoencoder".  The idea is based on **boosting**, which is also the idea behind **boosted trees** and **residual networks**.  As the same with previous variant, first output `q1` is constructed from CV1 only.  What is different is about following nodes: for CV2, instead of directly collaborating with CV1 to construct `q2`, it aims to fit the **residual error** that has not been learned by the CV1.  Let the fitted result be `d2` (as indicated in the diagram), then the second constructed result `q2` is `q2 = q1 + d2`.  This is similar to a boosted regression tree which **adds several tree outputs** to get the final output.  Similarly, CV3 fits residual error that has not been learned by CV1 and CV2 as `d3`, and corresponding constructed output is `q3 = q1 + d2 + d3`.  Again, loss function is still the average reconstruction loss `L = ((s - q1)^2 + (s - q2)^2 + (s - q3)^2) / 3`.  Following similar discussion, we can convince ourselves that CV1, CV2, CV3 are low-dimensional CVs sorted by importance.
 
 ## <span style="color: #397249">Discovering slow modes from time-series data</span>
 
