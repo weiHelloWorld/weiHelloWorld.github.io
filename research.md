@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Research
----
-
-I am interested in method development and analysis integrating machine learning, computational physics and molecular simulation.  My research focuses on developing machine learning based methods to extract conformational and kinetic information from molecular trajectories, and utilizing that information to improve sampling efficiency.  
+---  
 
 ## <span style="color: #397249">Enhanced sampling using autoencoders with data augmentation</span>
 
