@@ -87,4 +87,10 @@ If you are interested in how to discover higher-order slow modes, and theoretica
 
 ## <span style="color: #397249">Theoretical bounds of time-lagged autoencoders</span>
 
-We derived and proved the greatest lower bound of the reconstruction loss for time-lagged autoencoders, for finite-state stationary process.  We generalized autocorrelation to multidimensional cases
+In the section above, we use variational approach to discover slow modes from time-series data, now consider a different approach for the same problem: regression approach.  
+
+
+
+
+
+<!-- We derived and proved the greatest lower bound of the reconstruction loss for time-lagged autoencoders, for finite-state stationary process.  We generalized autocorrelation to multidimensional cases -->

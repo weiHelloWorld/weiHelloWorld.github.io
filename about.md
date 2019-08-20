@@ -26,7 +26,7 @@ title: About
 
 **University of Chicago** (Chicago, IL), *PhD Researcher*; 08/2018-Present
 
-- Derived and proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes
+- Derived and proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes, which will be useful for future deep learning method development
 
 - Created a deep learning based model to extract hierarchical slow modes from molecular time-series data ([GitHub](https://github.com/hsidky/srv))
 
