@@ -20,29 +20,28 @@ title: About
 --------
 ## <span style="color: #397249">Professional Experience</span>
 
-**Qulab Inc.** (Los Angeles, CA), *Research Intern*; 06/2019-Present
+**Qulab Inc.** (Los Angeles, CA), *Research Intern*; 06/2019-08/2019
 
-
+- Built machine learning based adaptive sampling and Markov model analysis pipelines
 
 **University of Chicago** (Chicago, IL), *PhD Researcher*; 08/2018-Present
 
 - Derived and proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes, which will be useful for future deep learning method development
 
-- Created a deep learning based model to extract hierarchical slow modes from molecular time-series data ([GitHub](https://github.com/hsidky/srv))
+- Created a deep learning based model to extract hierarchical slow modes from time-series data ([GitHub](https://github.com/hsidky/srv)), which achieved O(N) space and O(N) time complexity, as opposed to O(N^2) space and O(N^3) time complexity required by the state-of-the-art kernel based model
 
-- Achieved O(N) memory usage and O(N) time complexity, as opposed to O(N^2) memory usage and O(N^3) time complexity required by the state-of-the-art kernel based model
-
-**University of Illinois at Urbana-Champaign** (Urbana, IL), *PhD Researcher*; 05/2015 - Present
+**University of Illinois at Urbana-Champaign** (Urbana, IL), *PhD Researcher*; 05/2015-07/2018
 
 - Applied autoencoders with data augmentation to discover important collective variables for molecular systems
 
 - Developed an enhanced sampling framework for molecular simulations  ([GitHub](https://github.com/weiHelloWorld/accelerated_sampling_with_autoencoder)), which enables orders of magnitude faster sampling than conventional techniques
 
-- Built a neural network based force plugin for a simulation package with native CUDA support ([GitHub](https://github.com/weiHelloWorld/ANN_Force))
+- Wrote a neural network based force plugin for a simulation package with native CUDA support ([GitHub](https://github.com/weiHelloWorld/ANN_Force))
 
 --------
 ## <span style="color: #397249">Teaching Experience</span>
 
+**University of Illinois at Urbana-Champaign** (Urbana, IL), *Teaching Assistant*; 08/2014-05/2017
 
 - Taught lab and discussion sections for university physics courses for more than 400 engineering students in total, awarded "Excellent Teacher" 4 times out of 6 semesters
 
