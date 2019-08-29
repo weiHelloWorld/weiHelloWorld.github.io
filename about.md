@@ -22,13 +22,13 @@ title: About
 
 **University of Chicago** (Chicago, IL), *PhD Researcher*; 08/2018-Present
 
-- Derived and proved theoretical bounds for time-lagged autoencoders for finite-state stationary dynamic processes, which will be useful for future deep learning method development
+- Derived and proved theoretical bounds for time-lagged autoencoders for finite-state stationary processes, which will be useful for future deep learning method development
 
 - Created a deep learning based model to extract hierarchical slow modes from time-series data ([GitHub](https://github.com/hsidky/srv)), which achieved O(N) space and O(N) time complexity, as opposed to O(N^2) space and O(N^3) time complexity required by the state-of-the-art kernel based model
 
 **Qulab Inc.** (Los Angeles, CA), *Research Intern*; 06/2019-08/2019
 
-- Built machine learning based adaptive sampling and Markov model analysis pipelines
+- Built machine learning based adaptive sampling and Markov model analysis pipelines, which identified sampling bottlenecks and will help computational drug design
 
 **University of Illinois at Urbana-Champaign** (Urbana, IL), *PhD Researcher*; 05/2015-07/2018
 
