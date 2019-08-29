@@ -34,7 +34,7 @@ title: About
 
 - Applied autoencoders with data augmentation to discover important collective variables for molecular systems
 
-- Developed an enhanced sampling framework for molecular simulations  ([GitHub](https://github.com/weiHelloWorld/accelerated_sampling_with_autoencoder)), which enables orders of magnitude faster sampling than conventional techniques
+- Developed an enhanced sampling framework for molecular simulations ([GitHub](https://github.com/weiHelloWorld/accelerated_sampling_with_autoencoder)), which enabled orders of magnitude faster sampling than conventional techniques
 
 - Wrote a neural network based force plugin for a simulation package with native CUDA support ([GitHub](https://github.com/weiHelloWorld/ANN_Force))
 
