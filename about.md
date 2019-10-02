@@ -15,7 +15,7 @@ title: About
 
 **PhD in Computational Physics**, University of Illinois at Urbana-Champaign; 2020 (expected)
 
-**BS in Physics**, Nanjing University; 2014
+**BS in Physics**, Nanjing University; 06/2014
 
 --------
 ## <span style="color: #397249">Professional Experience</span>
@@ -57,7 +57,7 @@ Python, C/C++, MATLAB, CUDA C/C++, Git, Machine Learning/Deep Learning
 
 - The PLUMED Consortium (M. Bonomi, G. Bussi, C. Camilloni, G.A. Tribello, P. Banáš, A. Barducci, M. Bernetti, P.G. Bolhuis, S. Bottaro, D. Branduardi, R. Capelli, P. Carloni, M. Ceriotti, A. Cesari, H. Chen, **W. Chen**, F. Colizzi, S. De, M. De La Pierre, D. Donadio, V. Drobot, B. Ensing, A.L. Ferguson, M. Filizola, J.S. Fraser, H. Fu, P. Gasparotto, F. Luigi Gervasio, F. Giberti, A. Gil-Ley, T. Giorgino, G.T. Heller, G.M. Hocky, M. Iannuzzi, M. Invernizzi, K.E. Jelfs, A. Jussupow, E. Kirilin, A. Laio, V. Limongelli, K. Lindorff-Larsen, T. Löhr, F. Marinelli, L. Martin-Samos, M. Masetti, R. Meyer, A. Michaelides, C. Molteni, T. Morishita, M. Nava, C. Paissoni, E. Papaleo, M. Parrinello, J. Pfaendtner, P. Piaggi, G. Piccini, A. Pietropaolo, F. Pietrucci, S. Pipolo, D. Provasi, D. Quigley, P. Raiteri, S. Raniolo, J. Rydzewski, M. Salvalaglio, G. Cesare Sosso, V. Spiwok, J. Šponer, D.W.H. Swenson, P. Tiwary, O. Valsson, M. Vendruscolo, G.A. Voth, and A. White) "A community effort to promote transparency and reproducibility in enhanced molecular simulations" [Nature Methods 16, 670 (2019)](https://www.nature.com/articles/s41592-019-0506-8)
 
-- H. Sidky, **W. Chen**, and A.L. Ferguson "High-resolution Markov state models for the dynamics of Trp-cage miniprotein constructed over slow folding modes identified by state-free reversible VAMPnets" (submitted, 2019) [http://arxiv.org/abs/1906.04890]
+- H. Sidky, **W. Chen**, and A.L. Ferguson "High-resolution Markov state models for the dynamics of Trp-cage miniprotein constructed over slow folding modes identified by state-free reversible VAMPnets" [J. Phys. Chem. B (2019)](https://pubs.acs.org/doi/10.1021/acs.jpcb.9b05578)
 
 - **W. Chen**, H. Sidky, and A.L. Ferguson "Capabilities and limitations of time-lagged autoencoders for slow mode discovery in dynamical systems" [J. Chem. Phys. 151 064123 (2019)](https://aip.scitation.org/doi/10.1063/1.5112048)
 
