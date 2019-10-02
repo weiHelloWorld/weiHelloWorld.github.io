@@ -50,7 +50,7 @@ title: About
 --------
 ## <span style="color: #397249">Professional Skills</span>
 
-Python, C/C++, MATLAB, CUDA C/C++, Git, Machine Learning/Deep Learning
+Python, C/C++, Git, Machine Learning/Deep Learning, Software Testing/Continuous Integration, CUDA C/C++, SQL
 
 --------
 ## <span style="color: #397249">Publications </span>
