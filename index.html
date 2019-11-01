@@ -3,6 +3,10 @@ layout: default
 title: Home
 ---
 
+<p>Hi, I am a computational physics PhD candidate at University of Illinois at Urbana Champaign, and a visiting student at University of Chicago.</p>
+
+<p>I am interested in method development and analysis integrating machine learning, computational physics and molecular simulation.  My research focuses on developing machine learning based methods to extract conformational and kinetic information from molecular trajectories, and utilizing that information to improve sampling efficiency.  <a href="/research">Feel free to checkout this for my research projects</a>.</p>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -17,21 +21,4 @@ title: Home
     {{ post.content }}
   </div>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>
