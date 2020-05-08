@@ -13,14 +13,14 @@ title: About
 ## <span style="color: #397249">Education</span>
 
 
-**PhD in Computational Physics**, University of Illinois at Urbana-Champaign; 2020 (expected)
+**PhD in Computational Physics**, University of Illinois at Urbana-Champaign; 05/2020
 
 **BS in Physics**, Nanjing University; 06/2014
 
 --------
 ## <span style="color: #397249">Professional Experience</span>
 
-**University of Chicago** (Chicago, IL), *PhD Researcher*; 08/2018-Present
+**University of Chicago** (Chicago, IL), *PhD Researcher*; 08/2018-05/2020
 
 - Created a [deep learning-based model](https://github.com/hsidky/srv) using Keras/TensorFlow to extract hierarchical slow modes from time-series data, achieving O(N) space and O(N) time complexity, as opposed to O(N^2) space and O(N^3) time complexity required by the state-of-the-art kernel-based model
 
