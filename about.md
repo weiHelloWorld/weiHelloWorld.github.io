@@ -13,7 +13,7 @@ title: About
 ## <span style="color: #397249">Education</span>
 
 
-**PhD in Computational Physics**, University of Illinois at Urbana-Champaign; 05/2020
+**PhD in Computational Physics**, University of Illinois at Urbana-Champaign; 2020
 
 **BS in Physics**, Nanjing University; 06/2014
 
