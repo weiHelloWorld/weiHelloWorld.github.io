@@ -53,7 +53,9 @@ Python, C/C++, Git, Machine Learning/Deep Learning, Software Testing/Continuous 
 --------
 ## <span style="color: #397249">Publications </span>
 
-- H. Sidky, **W. Chen**, and A.L. Ferguson "Machine learning for collective variable discovery and enhanced sampling in biomolecular simulation" Molecular Physics (in press, 2019) **<span style="color: red">(Invited New Views article in Molecular Physics)</span>**
+- H. Sidky, **W. Chen**, and A.L. Ferguson "Molecular latent space simulators" [Chemical Science 11 (35), 9459-9467](https://pubs.rsc.org/fi/content/articlehtml/2020/sc/d0sc03635h)
+
+- H. Sidky, **W. Chen**, and A.L. Ferguson "Machine learning for collective variable discovery and enhanced sampling in biomolecular simulation" [Molecular Physics 118 (5), e1737742](https://www.tandfonline.com/doi/full/10.1080/00268976.2020.1737742) **<span style="color: red">(Invited New Views article in Molecular Physics)</span>**
 
 - The PLUMED Consortium (M. Bonomi, G. Bussi, C. Camilloni, G.A. Tribello, P. Banáš, A. Barducci, M. Bernetti, P.G. Bolhuis, S. Bottaro, D. Branduardi, R. Capelli, P. Carloni, M. Ceriotti, A. Cesari, H. Chen, **W. Chen**, F. Colizzi, S. De, M. De La Pierre, D. Donadio, V. Drobot, B. Ensing, A.L. Ferguson, M. Filizola, J.S. Fraser, H. Fu, P. Gasparotto, F. Luigi Gervasio, F. Giberti, A. Gil-Ley, T. Giorgino, G.T. Heller, G.M. Hocky, M. Iannuzzi, M. Invernizzi, K.E. Jelfs, A. Jussupow, E. Kirilin, A. Laio, V. Limongelli, K. Lindorff-Larsen, T. Löhr, F. Marinelli, L. Martin-Samos, M. Masetti, R. Meyer, A. Michaelides, C. Molteni, T. Morishita, M. Nava, C. Paissoni, E. Papaleo, M. Parrinello, J. Pfaendtner, P. Piaggi, G. Piccini, A. Pietropaolo, F. Pietrucci, S. Pipolo, D. Provasi, D. Quigley, P. Raiteri, S. Raniolo, J. Rydzewski, M. Salvalaglio, G. Cesare Sosso, V. Spiwok, J. Šponer, D.W.H. Swenson, P. Tiwary, O. Valsson, M. Vendruscolo, G.A. Voth, and A. White) "A community effort to promote transparency and reproducibility in enhanced molecular simulations" [Nature Methods 16, 670 (2019)](https://www.nature.com/articles/s41592-019-0506-8)
 
