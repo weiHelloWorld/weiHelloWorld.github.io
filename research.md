@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---  
 
-## [<span style="color: #397249">Enhanced sampling using autoencoders with data augmentation</span>]({{ site.url }}/research_proj/enhanced_sampling_using_autoencoders.md)
+## [<span style="color: #397249">Enhanced sampling using autoencoders with data augmentation</span>]({{ site.url }}/research_proj/enhanced_sampling_using_autoencoders)
 
 
 ## <span style="color: #397249">Hierarchical autoencoders: dimensionality reduction with importance ranking</span>

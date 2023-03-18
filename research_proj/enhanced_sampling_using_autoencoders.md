@@ -1,3 +1,8 @@
+---
+layout: post
+title: Enhanced sampling using autoencoders
+---  
+
 ## <span style="color: #397249">Enhanced sampling using autoencoders with data augmentation</span>
 
 Understanding of physical systems depends crucially on sufficient sampling of system conformations.  However, the presence of energy barrier generally impedes efficient sampling.  One way to solve this issue is to add biasing forces to "pull" the system along important directions (which are encoded in "collective variables").  Finding such directions is essentially a dimensionality reduction problem, where we want to reduce high-dimensional conformational representations (e.g. encoded as Cartesian coordinates of atoms) to low-dimensional embeddings.  For sampling problem, we have some additional requirements for dimensionality reduction: 
