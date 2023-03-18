@@ -89,4 +89,6 @@ If you are interested in how to discover higher-order slow modes, and theoretica
 
 We derived and proved the greatest lower bound of the reconstruction loss for time-lagged autoencoders, for finite-state stationary process.  
 
+[test](./research_proj/test.md)
+
 (to be continued)
